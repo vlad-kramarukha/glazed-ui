@@ -1,5 +1,6 @@
 export interface Scheme {
     light?: {
+        fill?: string
         base?: string
         success?: string
         warn?: string
@@ -7,6 +8,7 @@ export interface Scheme {
         text?: string
     }
     dark?: {
+        fill?: string
         base?: string
         success?: string
         warn?: string
@@ -16,5 +18,6 @@ export interface Scheme {
 }
 
 export interface ThemeConfig {
+    mode: string
     scheme: Scheme
 }

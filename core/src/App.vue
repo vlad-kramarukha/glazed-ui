@@ -5,7 +5,7 @@ import GButton from './lib/components/GButton.vue';
 <template>
 	<div class="container">
 		<section>
-      <GButton>Кнопка</GButton>
+      <GButton type="error">Кнопка</GButton>
     </section>
 	</div>
 </template>
